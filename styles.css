@@ -22,7 +22,7 @@ body
   justify-content: center;
   align-items: center;
   text-align: center;
-  padding: 0,20px;
+  padding: 10px,20px;
 }
 #showcase h1
 {
@@ -49,11 +49,17 @@ body
 .Main_container
 {
 padding-top:  100px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+column-gap: 20px;
+padding-bottom: 500px;
 
  display:flex;
 flex-direction: column;
 justify-content: space-between;
 align-items: center;
+
  }
  .Main_container h1
  {
@@ -73,7 +79,7 @@ align-items: center;
 .YouTube_container
 {
   padding-right: 200px;
-
+  justify-content: flex-start
 }
  .article_container .buttton
 {
