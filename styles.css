@@ -26,7 +26,7 @@ body
 }
 #showcase h1
 {
-  font-size: 50px;
+  font-size:clamp(3em,5vw,5em);
   line-height: 1.2;
 }
 #showcase p
@@ -45,7 +45,10 @@ body
 {
   background: black;
   color: white;
-}
+} .Main_container h1
+ {
+   font-size:clamp(4em,13vw,13em);
+ }
 .Main_container
 {
 padding-top:  100px;
@@ -61,10 +64,8 @@ justify-content: space-between;
 align-items: center;
 
  }
- .Main_container h1
- {
-   font-size:  200px;
- }
+
+
 
 .article_container h1
 {
@@ -80,7 +81,7 @@ align-items: center;
 .YouTube_container
 {
   height:315px;
-  width: 560px; 
+  width: 560px;
 }
 .article_container
 {
@@ -88,9 +89,11 @@ align-items: center;
   display:flex;
   flex: auto;
   justify-content:space-between;
-  gap: 200px;
+  gap: 100px;
  flex-direction: row;
  padding-bottom: 50px;
+ flex-wrap: wrap;
+
 }
  .article_container .buttton
 {
