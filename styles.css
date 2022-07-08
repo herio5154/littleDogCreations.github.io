@@ -69,8 +69,7 @@ align-items: center;
   height:315px;
   width: 560px;
   padding-top: 56%.25%;
-  padding-left: 40px;
-}
+ }
 video
 {
 width: 100%;
@@ -98,11 +97,13 @@ top: 0;
   padding-top: 50px;
   display:flex;
   flex: auto;
+  flex-wrap: wrap;
   justify-content:space-between;
   gap: 100px;
  flex-direction: row;
  padding-bottom: 50px;
- flex-wrap: wrap;
+ padding-left: 40px;
+
 
 }
  .article_container .buttton
