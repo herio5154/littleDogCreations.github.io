@@ -57,16 +57,26 @@ flex-direction: column;
 justify-content: center;
 column-gap: 20px;
 padding-bottom: 500px;
-
  display:flex;
 flex-direction: column;
 justify-content: space-between;
 align-items: center;
 
  }
-
-
-
+.video_container
+{
+  position: relative;
+  height:315px;
+  width: 560px;
+  padding-top: 56%.25%;
+  padding-left: 40px;
+}
+video
+{
+width: 100%;
+position: relative;
+top: 0;
+}
 .article_container h1
 {
   font-size: 40px;
